@@ -1,20 +1,20 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int main(void)
 {
 	double weight, height, bmi;
 
-	printf("¸ö¹«°Ô(kg)¿Í Å°(cm) ÀÔ·Â : ");
+	printf("ëª¸ë¬´ê²Œ(kg)ì™€ í‚¤(cm) ìž…ë ¥ : ");
 	scanf_s("%lf%lf", &weight, &height);
 
 	height = height / 100.0;
 	bmi = weight / (height * height);
 	
 	if (bmi >= 20.0 && bmi < 25.0) {
-	printf("Ç¥ÁØ ÀÔ´Ï´Ù.\n");
+	printf("í‘œì¤€ ìž…ë‹ˆë‹¤.\n");
 	}
 	else {
-	printf("Ã¼Áß°ü¸®°¡ ÇÊ¿äÇÕ´Ï´Ù.\n");
+	printf("ì²´ì¤‘ê´€ë¦¬ê°€ í•„ìš”í•©ë‹ˆë‹¤.\n");
 	}
 		
 }

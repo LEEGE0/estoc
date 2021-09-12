@@ -1,13 +1,13 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 int main(void)
 {
-	printf("ÇĞ¹ø : %d \n", 18930079);
+	printf("í•™ë²ˆ : %d \n", 18930079);
 
-	char name[] = "ÀÌÁö¿À";
-	printf("ÀÌ¸§ : %s \n", name);
+	char name[] = "ì´ì§€ì˜¤";
+	printf("ì´ë¦„ : %s \n", name);
 
 	char grade = 'A';
-	printf("ÇĞÁ¡ : %c \n", grade);
+	printf("í•™ì  : %c \n", grade);
 
 		return 0;
 }
