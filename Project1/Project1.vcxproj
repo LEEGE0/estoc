@@ -139,10 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BMI.c" />
     <ClCompile Include="report1.c" />
     <ClCompile Include="report2.c" />
     <ClCompile Include="report3.c" />
     <ClCompile Include="소스.cpp" />
+    <ClCompile Include="아스키코드출력.c" />
+    <ClCompile Include="학번 이름 성적.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -27,5 +27,14 @@
     <ClCompile Include="report3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="아스키코드출력.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="학번 이름 성적.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BMI.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
