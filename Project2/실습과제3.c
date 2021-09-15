@@ -18,15 +18,15 @@ int main(void)
 
 		else if (a > 0 && b < 0)
 
-			printf("2사분면 입니다");
+			printf("4사분면 입니다");
 
 		else if (a < 0 && b > 0)
 
-			printf("3사분면 입니다");
+			printf("2사분면 입니다");
 
 		else if (a < 0 && b < 0)
 
-			printf("4사분면 입니다");
+			printf("3사분면 입니다");
 
 		else
 			printf
