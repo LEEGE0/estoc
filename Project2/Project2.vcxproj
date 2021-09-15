@@ -142,6 +142,7 @@
     <ClCompile Include="실습과제1.c" />
     <ClCompile Include="실습과제2.c" />
     <ClCompile Include="실습과제3.c" />
+    <ClCompile Include="실습과제4.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
