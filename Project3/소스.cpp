@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <math.h>
 
 int main()
@@ -6,14 +6,14 @@ int main()
     int x1, y1, x2, y2;
     double d;
 
-    printf("Ã¹ ¹øÂ° ÁÂÇ¥(x, y)ÀÇ x °ª°ú y °ªÀ» ÀÔ·Â ÇÏ¼¼¿ä : ");
+    printf("ì²« ë²ˆì§¸ ì¢Œí‘œ(x, y)ì˜ x ê°’ê³¼ y ê°’ì„ ì…ë ¥ í•˜ì„¸ìš” : ");
     scanf_s("%d %d", &x1, &y1);
 
-    printf("µÎ ¹øÂ° ÁÂÇ¥(x, y)ÀÇ x °ª°ú y °ªÀ» ÀÔ·Â ÇÏ¼¼¿ä : ");
+    printf("ë‘ ë²ˆì§¸ ì¢Œí‘œ(x, y)ì˜ x ê°’ê³¼ y ê°’ì„ ì…ë ¥ í•˜ì„¸ìš” : ");
     scanf_s("%d %d", &x2, &y2);
 
     d = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
-    printf("À¯Å¬¸®µğ¾È °Å¸®´Â %.3f ÀÔ´Ï´Ù! \n", d);
+    printf("ìœ í´ë¦¬ë””ì•ˆ ê±°ë¦¬ëŠ” %.3f ì…ë‹ˆë‹¤! \n", d);
 
     return 0;
 }

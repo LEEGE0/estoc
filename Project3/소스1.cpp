@@ -1,10 +1,10 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
 int main(void)
 {
     int n, a, b, c = 0, aw = 0;
 
-    printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä :   ");
+    printf("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš” :   ");
     scanf_s("%d", &n);
 
     for (a = 1; a <= n; a++)

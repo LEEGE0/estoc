@@ -1,4 +1,4 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 #include <iostream>
 using namespace std;
 
@@ -9,7 +9,7 @@ int main(void)
 	int n(0);
 	int t(0);
 
-	printf("¸îÇ×±îÁö Ãâ·Â ÇÒ±î¿ä? : ");
+	printf("ëª‡í•­ê¹Œì§€ ì¶œë ¥ í• ê¹Œìš”? : ");
 	scanf_s("%d", &a);
 
 	for (int i = 1; i <= a; i++)
