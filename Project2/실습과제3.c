@@ -1,36 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#define MAX_NUM 100000000
 /* made by leegeo
 */
+
 int main(void)
 {
-	int a;
-	int b;
+	int anw[] = { 0 };
+	int n = 0;
+	int i = 0;
+	printf("정수를 입력하세요 : \n");
+	scanf_s("%d", &n);
 
-	printf("좌표의 x, y값을 입력하십시오: \n");
-	scanf_s("%d %d", &a, &b);
+	printf("");
 
+	for (i = 2; i <= n; i++);
 	{
-		if (a > 0 && b > 0)
-
-			printf("1사분면 입니다");
-
-		else if (a > 0 && b < 0)
-
-			printf("4사분면 입니다");
-
-		else if (a < 0 && b > 0)
-
-			printf("2사분면 입니다");
-
-		else if (a < 0 && b < 0)
-
-			printf("3사분면 입니다");
-
-		else
-			printf
-			("원점입니다");
+		if (n % i == 0)break;
 	}
+
 	return 0;
 };
