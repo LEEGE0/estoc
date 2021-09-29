@@ -1,19 +1,35 @@
-﻿#include <stdio.h>
-#include <math.h>
+﻿#include<stdio.h>
 
-int main()
+int main(void)
 {
-    int x1, y1, x2, y2;
-    double d;
+    int n, a, b, c = 0, aw = 0;
 
-    printf("첫 번째 좌표(x, y)의 x 값과 y 값을 입력 하세요 : ");
-    scanf_s("%d %d", &x1, &y1);
+    printf("정수를 입력하세요 :   ");
+    scanf_s("%d", &n);
 
-    printf("두 번째 좌표(x, y)의 x 값과 y 값을 입력 하세요 : ");
-    scanf_s("%d %d", &x2, &y2);
+    for (a = 1; a <= n; a++)
+    {
 
-    d = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
-    printf("유클리디안 거리는 %.3f 입니다! \n", d);
+        for (b = 1; b <= a; b++)
+        {
+            if (a % b == 0)
+            {
+                aw++;
+            }
+        }
+
+        if (aw == 2)
+        {
+
+            printf("%5d", a);
+            c++;
+            if (c % 5 == 0)
+                printf("\n");
+
+        }
+        aw = 0;
+
+    }
 
     return 0;
 }

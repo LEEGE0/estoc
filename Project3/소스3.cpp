@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-int main(void)
+int main2(void)
 {
 	int a = 0;
 	int p(0);

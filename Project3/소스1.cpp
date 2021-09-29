@@ -1,6 +1,6 @@
 ﻿#include<stdio.h>
 
-int main(void)
+int main1(void)
 {
     int n, a, b, c = 0, aw = 0;
 
